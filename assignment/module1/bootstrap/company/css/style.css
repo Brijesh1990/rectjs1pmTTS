@@ -1,0 +1,118 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+html h1,h2,h3,h4,h5,h6 
+{
+    margin: 0;
+    padding: 0;
+}
+html ul li 
+{
+    margin: 0;
+    padding: 0;
+}
+.navbar 
+{
+    width: 100%;
+    height: auto;
+    background-color: #c9401e;
+    position: fixed !important;
+    top: 0;
+    z-index: 5 !important;    
+}
+.navbar-brand
+{
+    color: white;
+    margin-left: 10%;
+    animation: 2s fadeInUp alternate;
+}
+
+.navbar-link li 
+{
+    display: inline-block;
+    padding: 2px 32px;
+    animation: 2s fadeInUp alternate;
+}
+.navbar-link a 
+{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 17px;
+    color: white;
+}
+.navbar-collapse 
+{
+    margin-left: 20%;
+}
+.slider
+{
+    width: 100%;
+    height: 350px;
+    background-color: #c9401e;
+    margin: 0;
+    top: 0;
+    z-index: 5;
+    margin-top: 0;
+}
+.slider h1 
+{
+    font-size: 65px;
+    letter-spacing: 4px;
+    animation: 1s fadeInUp alternate;
+}
+.slider p 
+{
+    font-size: 20px;
+    letter-spacing: 5px;
+    animation: 1s fadeInUp alternate;
+}
+.content
+{
+    width: 100%;
+    height: auto;
+    animation: 2s fadeInUp alternate;
+
+}
+.bi-bar-chart-fill,.bi-globe-americas,.bi-power,.bi-heart-fill,.bi-lock-fill,.bi-layers,.bi-star-fill,.bi-tools 
+{
+    font-size: 200px;
+    color: #c9401e;
+    animation: 2s fadeInUp alternate;
+}
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+    .navbar-link li 
+{
+    display: block;
+ 
+}
+.slider
+{
+    width: 100%;
+    height: auto;
+    background-color: #c9401e;
+    margin: 0;
+    top: 0;
+    z-index: 5;
+    margin-top: 0;
+}
+.slider h1 
+{
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+.slider p 
+{
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+.form-group 
+{
+    width: 85%;
+}
+
+}
