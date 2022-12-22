@@ -1,0 +1,32 @@
+@import url('font-face.css');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.flex 
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    /* display: flex;
+    flex-direction: row; */
+
+}
+.flex-txt
+{
+    width: 220px;
+    height: 200px;
+    border-radius: 20%;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    padding: 15px;
+    display: inline-block;
+    font-family: dharmi-fonts;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
