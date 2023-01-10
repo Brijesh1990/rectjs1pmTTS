@@ -1,0 +1,64 @@
+<script>
+    /* arrow function is short formate of functions i.e same as functions          
+        let a=()=>console.log("hi");
+        a();
+
+    */
+    //  var ab=()=>console.log("My name is:Brijesh");
+    //  ab();
+
+
+    // arrow function with no argument
+    // var a=()=>console.log("My name is:Brijesh");
+    //  a();
+
+    // arrow function with one argument
+    // let a=x=>console.log(x);
+    // a(10);
+
+    // arrow function with multi arguments argument
+    //  let mult=(x,y)=>
+    //  {
+    //     let result=x+y;
+    //     return result;
+    //  }
+    //  console.log("additions of numbers is :",mult(10,50));
+
+
+// this with Arrow Function
+
+// Inside a regular function, this keyword refers to the function where it is called.
+
+// However, this is not associated with arrow functions. Arrow function does not have its own this. So whenever you call this, it refers to its parent scope. For example,
+
+
+// function test()
+// {
+//     this.name="disha";
+//     this.age=22;
+//     console.log(this.age); 
+// }
+// test();
+
+
+
+function test()
+{
+    this.name="disha";
+    this.age=22;
+    this.sayname=function()
+    {
+        console.log("My age :",this.age);
+        let innerfun=()=>{
+            
+            console.log("My age now is :",this.age);
+
+    }
+    innerfun();
+}
+}
+var ab=new test();
+ab.sayname();
+
+
+</script>
